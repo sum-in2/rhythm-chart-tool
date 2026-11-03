@@ -52,6 +52,10 @@ __pycache__/
 !/TestAudio/.gitkeep
 !/TestAudio/README.md
 
+# Unity 안에서 분석을 시험하려고 넣는 테스트 오디오(.mp3 는 위에서 이미 제외되지만 .meta 와 폴더는 따로 제외)
+/TestProject/Assets/TestAudio/
+/TestProject/Assets/TestAudio.meta
+
 # OS
 .DS_Store
 Thumbs.db

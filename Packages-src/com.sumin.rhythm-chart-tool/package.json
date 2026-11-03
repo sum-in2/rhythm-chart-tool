@@ -1,0 +1,18 @@
+{
+  "name": "com.sumin.rhythm-chart-tool",
+  "version": "0.1.0",
+  "displayName": "Rhythm Chart Tool",
+  "description": "mp3 를 Python(librosa)으로 분석해 난이도별 리듬게임 차트를 자동 생성하고 Unity 에디터에서 수정/저장하는 도구.",
+  "unity": "2022.3",
+  "keywords": [
+    "rhythm",
+    "chart",
+    "beatmap",
+    "audio",
+    "editor"
+  ],
+  "author": {
+    "name": "SuminTools"
+  },
+  "license": "MIT"
+}

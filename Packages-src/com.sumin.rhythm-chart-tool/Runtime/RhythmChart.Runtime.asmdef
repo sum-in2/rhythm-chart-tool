@@ -1,0 +1,14 @@
+{
+    "name": "RhythmChart.Runtime",
+    "rootNamespace": "SuminTools.RhythmChart",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
