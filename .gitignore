@@ -56,6 +56,12 @@ __pycache__/
 /TestProject/Assets/TestAudio/
 /TestProject/Assets/TestAudio.meta
 
+# 샘플 제작용 작업 폴더와, Package Manager 에서 가져온 샘플 사본(원본은 Packages-src/**/Samples~)
+/TestProject/Assets/SampleBuild/
+/TestProject/Assets/SampleBuild.meta
+/TestProject/Assets/Samples/
+/TestProject/Assets/Samples.meta
+
 # OS
 .DS_Store
 Thumbs.db

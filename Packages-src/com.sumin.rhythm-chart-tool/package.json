@@ -4,6 +4,9 @@
   "displayName": "Rhythm Chart Tool",
   "description": "mp3 를 Python(librosa)으로 분석해 난이도별 리듬게임 차트를 자동 생성하고 Unity 에디터에서 수정/저장하는 도구.",
   "unity": "2022.3",
+  "dependencies": {
+    "com.unity.inputsystem": "1.7.0"
+  },
   "keywords": [
     "rhythm",
     "chart",
@@ -14,5 +17,12 @@
   "author": {
     "name": "SuminTools"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Basic Playback",
+      "description": "합성 데모곡과 4개 난이도 차트로 키보드(D F J K)로 직접 쳐 볼 수 있는 샘플 씬. Input System 이 필요합니다.",
+      "path": "Samples~/BasicPlayback"
+    }
+  ]
 }

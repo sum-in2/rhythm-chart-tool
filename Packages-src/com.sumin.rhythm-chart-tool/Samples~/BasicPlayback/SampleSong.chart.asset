@@ -1,0 +1,4508 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d805725a16b383c45b8447fe8a05ae0c, type: 3}
+  m_Name: SampleSong.chart
+  m_EditorClassIdentifier: RhythmChart.Runtime::SuminTools.RhythmChart.ChartData
+  audioClip: {fileID: 8300000, guid: 7a0167f7cfaced141b4f818885e2cafe, type: 3}
+  analysisSchemaVersion: 1
+  bpm: 127.97
+  offset: 0.0054
+  duration: 60.5
+  beats:
+  - 0.4644
+  - 0.952
+  - 1.4164
+  - 1.8808
+  - 2.3452
+  - 2.8096
+  - 3.2972
+  - 3.7616
+  - 4.226
+  - 4.6904
+  - 5.1548
+  - 5.6192
+  - 6.1068
+  - 6.5712
+  - 7.0356
+  - 7.5233
+  - 7.9877
+  - 8.4521
+  - 8.9165
+  - 9.4041
+  - 9.8685
+  - 10.3561
+  - 10.7973
+  - 11.2849
+  - 11.7261
+  - 12.2137
+  - 12.6781
+  - 13.1657
+  - 13.6069
+  - 14.0945
+  - 14.5589
+  - 15.0233
+  - 15.4877
+  - 15.9521
+  - 16.4165
+  - 16.9041
+  - 17.3685
+  - 17.8329
+  - 18.2973
+  - 18.7617
+  - 19.2261
+  - 19.7137
+  - 20.1781
+  - 20.6425
+  - 21.1069
+  - 21.5713
+  - 22.0357
+  - 22.5234
+  - 22.9878
+  - 23.4522
+  - 23.9166
+  - 24.4042
+  - 24.8686
+  - 25.333
+  - 25.7974
+  - 26.2618
+  - 26.7262
+  - 27.2138
+  - 27.6782
+  - 28.1426
+  - 28.607
+  - 29.0946
+  - 29.559
+  - 30.0234
+  - 30.4878
+  - 30.9522
+  - 31.4166
+  - 31.9042
+  - 32.3686
+  - 32.833
+  - 33.2974
+  - 33.785
+  - 34.2262
+  - 34.7138
+  - 35.1782
+  - 35.6426
+  - 36.107
+  - 36.5946
+  - 37.059
+  - 37.5234
+  - 37.9878
+  - 38.4522
+  - 38.9166
+  - 39.4043
+  - 39.8687
+  - 40.3331
+  - 40.7975
+  - 41.2851
+  - 41.7263
+  - 42.2139
+  - 42.6783
+  - 43.1427
+  - 43.6071
+  - 44.0947
+  - 44.5591
+  - 45.0235
+  - 45.4879
+  - 45.9523
+  - 46.4167
+  - 46.9043
+  - 47.3687
+  - 47.8331
+  - 48.2975
+  - 48.7851
+  - 49.2263
+  - 49.7139
+  - 50.1783
+  - 50.6427
+  - 51.1071
+  - 51.5947
+  - 52.0591
+  - 52.5235
+  - 52.9879
+  - 53.4523
+  - 53.9167
+  - 54.4044
+  - 54.8688
+  - 55.3332
+  - 55.7976
+  - 56.2852
+  - 56.7263
+  - 57.214
+  - 57.6784
+  - 58.1428
+  - 58.6072
+  - 59.0716
+  - 59.536
+  onsets:
+  - time: 0.2322
+    strength: 0.181
+    band: 2
+  - time: 0.4644
+    strength: 1
+    band: 0
+  - time: 0.6966
+    strength: 0.178
+    band: 2
+  - time: 0.9288
+    strength: 0.766
+    band: 0
+  - time: 1.1842
+    strength: 0.384
+    band: 2
+  - time: 1.3932
+    strength: 0.51
+    band: 0
+  - time: 1.6486
+    strength: 0.35
+    band: 2
+  - time: 1.8808
+    strength: 1
+    band: 0
+  - time: 2.113
+    strength: 0.334
+    band: 2
+  - time: 2.3452
+    strength: 1
+    band: 0
+  - time: 2.5774
+    strength: 0.365
+    band: 2
+  - time: 2.8096
+    strength: 1
+    band: 0
+  - time: 3.0418
+    strength: 0.21
+    band: 2
+  - time: 3.274
+    strength: 0.955
+    band: 0
+  - time: 3.5062
+    strength: 0.146
+    band: 2
+  - time: 3.7384
+    strength: 0.71
+    band: 0
+  - time: 3.9938
+    strength: 0.373
+    band: 2
+  - time: 4.2028
+    strength: 0.35
+    band: 0
+  - time: 4.4582
+    strength: 0.425
+    band: 2
+  - time: 4.6904
+    strength: 1
+    band: 0
+  - time: 4.9226
+    strength: 0.334
+    band: 2
+  - time: 5.1548
+    strength: 1
+    band: 0
+  - time: 5.387
+    strength: 0.229
+    band: 2
+  - time: 5.6192
+    strength: 1
+    band: 0
+  - time: 5.8514
+    strength: 0.184
+    band: 2
+  - time: 6.0836
+    strength: 0.7
+    band: 0
+  - time: 6.339
+    strength: 0.398
+    band: 2
+  - time: 6.548
+    strength: 0.405
+    band: 0
+  - time: 6.8034
+    strength: 0.396
+    band: 2
+  - time: 7.0356
+    strength: 1
+    band: 0
+  - time: 7.2678
+    strength: 0.401
+    band: 2
+  - time: 7.5
+    strength: 1
+    band: 0
+  - time: 7.7322
+    strength: 0.223
+    band: 1
+  - time: 7.9412
+    strength: 0.294
+    band: 2
+  - time: 7.9877
+    strength: 0.853
+    band: 2
+  - time: 8.2199
+    strength: 0.457
+    band: 1
+  - time: 8.4056
+    strength: 0.223
+    band: 0
+  - time: 8.4521
+    strength: 0.173
+    band: 1
+  - time: 8.6843
+    strength: 0.311
+    band: 2
+  - time: 8.9165
+    strength: 0.879
+    band: 2
+  - time: 9.1487
+    strength: 0.369
+    band: 2
+  - time: 9.3576
+    strength: 0.197
+    band: 0
+  - time: 9.4041
+    strength: 0.223
+    band: 0
+  - time: 9.6131
+    strength: 0.325
+    band: 2
+  - time: 9.8453
+    strength: 0.687
+    band: 2
+  - time: 10.0775
+    strength: 0.272
+    band: 1
+  - time: 10.3329
+    strength: 0.261
+    band: 1
+  - time: 10.5419
+    strength: 0.223
+    band: 1
+  - time: 10.7741
+    strength: 0.524
+    band: 2
+  - time: 11.0295
+    strength: 0.431
+    band: 2
+  - time: 11.2617
+    strength: 0.302
+    band: 1
+  - time: 11.4939
+    strength: 0.34
+    band: 2
+  - time: 11.7029
+    strength: 0.282
+    band: 2
+  - time: 11.9583
+    strength: 0.366
+    band: 2
+  - time: 12.1905
+    strength: 0.216
+    band: 1
+  - time: 12.4227
+    strength: 0.282
+    band: 1
+  - time: 12.6549
+    strength: 0.55
+    band: 1
+  - time: 12.8871
+    strength: 0.195
+    band: 1
+  - time: 13.1425
+    strength: 0.33
+    band: 1
+  - time: 13.3747
+    strength: 0.295
+    band: 2
+  - time: 13.5837
+    strength: 0.3
+    band: 2
+  - time: 13.8391
+    strength: 0.385
+    band: 2
+  - time: 14.0713
+    strength: 0.246
+    band: 1
+  - time: 14.3035
+    strength: 0.329
+    band: 1
+  - time: 14.5357
+    strength: 0.759
+    band: 2
+  - time: 14.7679
+    strength: 0.327
+    band: 1
+  - time: 15.0233
+    strength: 0.397
+    band: 0
+  - time: 15.2323
+    strength: 0.256
+    band: 1
+  - time: 15.4877
+    strength: 1
+    band: 2
+  - time: 15.7199
+    strength: 0.461
+    band: 1
+  - time: 15.9057
+    strength: 0.22
+    band: 0
+  - time: 15.9521
+    strength: 0.312
+    band: 0
+  - time: 16.1843
+    strength: 0.365
+    band: 2
+  - time: 16.3701
+    strength: 0.292
+    band: 2
+  - time: 16.4165
+    strength: 0.824
+    band: 2
+  - time: 16.6487
+    strength: 0.428
+    band: 2
+  - time: 16.8577
+    strength: 0.193
+    band: 0
+  - time: 16.9041
+    strength: 0.257
+    band: 0
+  - time: 17.1131
+    strength: 0.388
+    band: 2
+  - time: 17.3453
+    strength: 0.791
+    band: 2
+  - time: 17.5775
+    strength: 0.263
+    band: 1
+  - time: 17.8329
+    strength: 0.36
+    band: 0
+  - time: 18.0419
+    strength: 0.232
+    band: 2
+  - time: 18.2741
+    strength: 0.501
+    band: 2
+  - time: 18.5295
+    strength: 0.478
+    band: 2
+  - time: 18.7617
+    strength: 0.352
+    band: 1
+  - time: 18.9939
+    strength: 0.52
+    band: 2
+  - time: 19.2261
+    strength: 0.96
+    band: 2
+  - time: 19.4583
+    strength: 0.41
+    band: 2
+  - time: 19.6905
+    strength: 0.34
+    band: 1
+  - time: 19.9227
+    strength: 0.296
+    band: 1
+  - time: 20.1549
+    strength: 0.562
+    band: 1
+  - time: 20.3871
+    strength: 0.24
+    band: 1
+  - time: 20.5264
+    strength: 0.137
+    band: 1
+  - time: 20.6425
+    strength: 0.407
+    band: 0
+  - time: 20.8747
+    strength: 0.465
+    band: 2
+  - time: 21.1069
+    strength: 1
+    band: 2
+  - time: 21.3391
+    strength: 0.453
+    band: 2
+  - time: 21.5713
+    strength: 0.389
+    band: 2
+  - time: 21.8035
+    strength: 0.347
+    band: 2
+  - time: 22.0357
+    strength: 0.811
+    band: 2
+  - time: 22.2679
+    strength: 0.306
+    band: 1
+  - time: 22.5234
+    strength: 0.416
+    band: 1
+  - time: 22.7323
+    strength: 0.313
+    band: 1
+  - time: 22.9878
+    strength: 1
+    band: 1
+  - time: 23.22
+    strength: 0.459
+    band: 1
+  - time: 23.4057
+    strength: 0.213
+    band: 0
+  - time: 23.4522
+    strength: 0.32
+    band: 1
+  - time: 23.6844
+    strength: 0.385
+    band: 2
+  - time: 23.8701
+    strength: 0.3
+    band: 2
+  - time: 23.9166
+    strength: 0.88
+    band: 2
+  - time: 24.1488
+    strength: 0.422
+    band: 2
+  - time: 24.3577
+    strength: 0.189
+    band: 0
+  - time: 24.4042
+    strength: 0.221
+    band: 0
+  - time: 24.6132
+    strength: 0.372
+    band: 2
+  - time: 24.8454
+    strength: 0.709
+    band: 2
+  - time: 25.0776
+    strength: 0.299
+    band: 1
+  - time: 25.333
+    strength: 0.361
+    band: 0
+  - time: 25.542
+    strength: 0.203
+    band: 2
+  - time: 25.7741
+    strength: 0.503
+    band: 2
+  - time: 26.0296
+    strength: 0.44
+    band: 2
+  - time: 26.2618
+    strength: 0.331
+    band: 1
+  - time: 26.494
+    strength: 0.514
+    band: 2
+  - time: 26.7262
+    strength: 0.954
+    band: 2
+  - time: 26.9584
+    strength: 0.391
+    band: 1
+  - time: 27.1906
+    strength: 0.35
+    band: 1
+  - time: 27.4228
+    strength: 0.279
+    band: 1
+  - time: 27.655
+    strength: 0.558
+    band: 1
+  - time: 27.8872
+    strength: 0.238
+    band: 1
+  - time: 28.0265
+    strength: 0.13
+    band: 1
+  - time: 28.1426
+    strength: 0.406
+    band: 0
+  - time: 28.3748
+    strength: 0.41
+    band: 1
+  - time: 28.607
+    strength: 1
+    band: 2
+  - time: 28.8392
+    strength: 0.444
+    band: 2
+  - time: 29.0714
+    strength: 0.341
+    band: 1
+  - time: 29.3036
+    strength: 0.375
+    band: 2
+  - time: 29.5358
+    strength: 0.793
+    band: 2
+  - time: 29.768
+    strength: 0.392
+    band: 2
+  - time: 30.0234
+    strength: 0.42
+    band: 1
+  - time: 30.2324
+    strength: 0.241
+    band: 1
+  - time: 30.4878
+    strength: 0.95
+    band: 2
+  - time: 30.72
+    strength: 0.469
+    band: 1
+  - time: 30.9058
+    strength: 0.222
+    band: 0
+  - time: 30.9522
+    strength: 0.317
+    band: 1
+  - time: 31.1844
+    strength: 0.367
+    band: 2
+  - time: 31.3702
+    strength: 0.308
+    band: 2
+  - time: 31.4166
+    strength: 0.974
+    band: 2
+  - time: 31.6488
+    strength: 0.418
+    band: 2
+  - time: 31.8578
+    strength: 0.191
+    band: 0
+  - time: 31.9042
+    strength: 0.249
+    band: 0
+  - time: 32.1132
+    strength: 0.406
+    band: 2
+  - time: 32.3454
+    strength: 0.727
+    band: 2
+  - time: 32.5776
+    strength: 0.292
+    band: 1
+  - time: 32.833
+    strength: 0.362
+    band: 0
+  - time: 33.042
+    strength: 0.182
+    band: 2
+  - time: 33.2742
+    strength: 0.565
+    band: 2
+  - time: 33.5296
+    strength: 0.443
+    band: 2
+  - time: 33.7618
+    strength: 0.343
+    band: 1
+  - time: 33.994
+    strength: 0.488
+    band: 2
+  - time: 34.2262
+    strength: 0.829
+    band: 2
+  - time: 34.4584
+    strength: 0.447
+    band: 2
+  - time: 34.6906
+    strength: 0.355
+    band: 1
+  - time: 34.9228
+    strength: 0.304
+    band: 1
+  - time: 35.155
+    strength: 0.562
+    band: 1
+  - time: 35.3872
+    strength: 0.23
+    band: 1
+  - time: 35.5265
+    strength: 0.14
+    band: 1
+  - time: 35.6426
+    strength: 0.403
+    band: 0
+  - time: 35.8748
+    strength: 0.396
+    band: 1
+  - time: 36.107
+    strength: 0.931
+    band: 2
+  - time: 36.3392
+    strength: 0.421
+    band: 2
+  - time: 36.5714
+    strength: 0.354
+    band: 1
+  - time: 36.8036
+    strength: 0.381
+    band: 2
+  - time: 37.0358
+    strength: 0.764
+    band: 2
+  - time: 37.268
+    strength: 0.309
+    band: 1
+  - time: 37.5002
+    strength: 0.187
+    band: 0
+  - time: 37.7324
+    strength: 0.266
+    band: 1
+  - time: 37.9878
+    strength: 0.974
+    band: 2
+  - time: 38.22
+    strength: 0.474
+    band: 1
+  - time: 38.4058
+    strength: 0.22
+    band: 0
+  - time: 38.4522
+    strength: 0.33
+    band: 0
+  - time: 38.6844
+    strength: 0.339
+    band: 2
+  - time: 38.8702
+    strength: 0.294
+    band: 2
+  - time: 38.9166
+    strength: 0.878
+    band: 2
+  - time: 39.1488
+    strength: 0.418
+    band: 2
+  - time: 39.3578
+    strength: 0.18
+    band: 0
+  - time: 39.4043
+    strength: 0.249
+    band: 0
+  - time: 39.6132
+    strength: 0.349
+    band: 2
+  - time: 39.8454
+    strength: 0.771
+    band: 2
+  - time: 40.0776
+    strength: 0.29
+    band: 1
+  - time: 40.3331
+    strength: 0.366
+    band: 0
+  - time: 40.542
+    strength: 0.198
+    band: 2
+  - time: 40.7742
+    strength: 0.471
+    band: 2
+  - time: 41.0297
+    strength: 0.444
+    band: 2
+  - time: 41.2619
+    strength: 0.325
+    band: 1
+  - time: 41.4941
+    strength: 0.482
+    band: 2
+  - time: 41.7263
+    strength: 0.812
+    band: 2
+  - time: 41.9585
+    strength: 0.439
+    band: 2
+  - time: 42.1907
+    strength: 0.327
+    band: 1
+  - time: 42.4229
+    strength: 0.306
+    band: 1
+  - time: 42.6551
+    strength: 0.556
+    band: 1
+  - time: 42.8873
+    strength: 0.232
+    band: 1
+  - time: 43.0266
+    strength: 0.124
+    band: 1
+  - time: 43.1427
+    strength: 0.397
+    band: 0
+  - time: 43.3749
+    strength: 0.426
+    band: 2
+  - time: 43.6071
+    strength: 1
+    band: 2
+  - time: 43.8393
+    strength: 0.433
+    band: 2
+  - time: 44.0715
+    strength: 0.356
+    band: 1
+  - time: 44.3037
+    strength: 0.39
+    band: 2
+  - time: 44.5359
+    strength: 0.764
+    band: 2
+  - time: 44.7681
+    strength: 0.36
+    band: 2
+  - time: 45.0235
+    strength: 0.387
+    band: 1
+  - time: 45.1164
+    strength: 0.208
+    band: 2
+  - time: 45.2325
+    strength: 0.18
+    band: 1
+  - time: 45.3718
+    strength: 0.281
+    band: 2
+  - time: 45.4879
+    strength: 1
+    band: 2
+  - time: 45.604
+    strength: 0.3
+    band: 2
+  - time: 45.7201
+    strength: 0.428
+    band: 1
+  - time: 45.8362
+    strength: 0.285
+    band: 2
+  - time: 45.9523
+    strength: 0.331
+    band: 1
+  - time: 46.0684
+    strength: 0.362
+    band: 2
+  - time: 46.1845
+    strength: 0.322
+    band: 2
+  - time: 46.3006
+    strength: 0.345
+    band: 2
+  - time: 46.4167
+    strength: 0.921
+    band: 2
+  - time: 46.5328
+    strength: 0.322
+    band: 2
+  - time: 46.6489
+    strength: 0.357
+    band: 1
+  - time: 46.765
+    strength: 0.33
+    band: 2
+  - time: 46.9043
+    strength: 0.251
+    band: 0
+  - time: 46.9972
+    strength: 0.319
+    band: 2
+  - time: 47.1133
+    strength: 0.278
+    band: 1
+  - time: 47.2294
+    strength: 0.309
+    band: 2
+  - time: 47.3455
+    strength: 0.703
+    band: 2
+  - time: 47.4616
+    strength: 0.288
+    band: 2
+  - time: 47.6009
+    strength: 0.454
+    band: 1
+  - time: 47.6938
+    strength: 0.221
+    band: 2
+  - time: 47.8331
+    strength: 0.376
+    band: 0
+  - time: 47.926
+    strength: 0.211
+    band: 2
+  - time: 48.0653
+    strength: 0.306
+    band: 2
+  - time: 48.1814
+    strength: 0.316
+    band: 2
+  - time: 48.2743
+    strength: 0.485
+    band: 2
+  - time: 48.4136
+    strength: 0.293
+    band: 2
+  - time: 48.5297
+    strength: 0.429
+    band: 2
+  - time: 48.6458
+    strength: 0.225
+    band: 1
+  - time: 48.7619
+    strength: 0.324
+    band: 1
+  - time: 48.878
+    strength: 0.397
+    band: 2
+  - time: 48.9941
+    strength: 0.425
+    band: 1
+  - time: 49.1102
+    strength: 0.353
+    band: 2
+  - time: 49.2263
+    strength: 0.897
+    band: 2
+  - time: 49.3424
+    strength: 0.329
+    band: 2
+  - time: 49.4585
+    strength: 0.347
+    band: 1
+  - time: 49.5746
+    strength: 0.274
+    band: 2
+  - time: 49.6907
+    strength: 0.338
+    band: 1
+  - time: 49.8068
+    strength: 0.275
+    band: 2
+  - time: 49.9229
+    strength: 0.258
+    band: 1
+  - time: 50.039
+    strength: 0.251
+    band: 2
+  - time: 50.1551
+    strength: 0.61
+    band: 1
+  - time: 50.2944
+    strength: 0.268
+    band: 2
+  - time: 50.4105
+    strength: 0.514
+    band: 1
+  - time: 50.5266
+    strength: 0.319
+    band: 2
+  - time: 50.6427
+    strength: 0.421
+    band: 0
+  - time: 50.7588
+    strength: 0.309
+    band: 2
+  - time: 50.8749
+    strength: 0.404
+    band: 1
+  - time: 50.991
+    strength: 0.292
+    band: 2
+  - time: 51.1071
+    strength: 1
+    band: 2
+  - time: 51.2232
+    strength: 0.359
+    band: 2
+  - time: 51.3393
+    strength: 0.386
+    band: 1
+  - time: 51.4554
+    strength: 0.325
+    band: 2
+  - time: 51.5715
+    strength: 0.344
+    band: 1
+  - time: 51.6876
+    strength: 0.364
+    band: 2
+  - time: 51.8037
+    strength: 0.33
+    band: 1
+  - time: 51.9198
+    strength: 0.333
+    band: 2
+  - time: 52.0359
+    strength: 0.759
+    band: 2
+  - time: 52.152
+    strength: 0.255
+    band: 2
+  - time: 52.2681
+    strength: 0.282
+    band: 1
+  - time: 52.4074
+    strength: 0.203
+    band: 1
+  - time: 52.5235
+    strength: 0.386
+    band: 1
+  - time: 52.6164
+    strength: 0.224
+    band: 2
+  - time: 52.7325
+    strength: 0.183
+    band: 1
+  - time: 52.8718
+    strength: 0.277
+    band: 2
+  - time: 52.9879
+    strength: 1
+    band: 1
+  - time: 53.104
+    strength: 0.311
+    band: 2
+  - time: 53.2201
+    strength: 0.441
+    band: 1
+  - time: 53.3362
+    strength: 0.279
+    band: 2
+  - time: 53.4523
+    strength: 0.319
+    band: 1
+  - time: 53.5684
+    strength: 0.329
+    band: 2
+  - time: 53.6845
+    strength: 0.331
+    band: 0
+  - time: 53.8006
+    strength: 0.363
+    band: 2
+  - time: 53.9167
+    strength: 0.894
+    band: 2
+  - time: 54.0328
+    strength: 0.329
+    band: 2
+  - time: 54.1489
+    strength: 0.358
+    band: 1
+  - time: 54.265
+    strength: 0.341
+    band: 2
+  - time: 54.3811
+    strength: 0.169
+    band: 0
+  - time: 54.4972
+    strength: 0.322
+    band: 2
+  - time: 54.6133
+    strength: 0.313
+    band: 1
+  - time: 54.7294
+    strength: 0.316
+    band: 2
+  - time: 54.8455
+    strength: 0.748
+    band: 2
+  - time: 54.9616
+    strength: 0.243
+    band: 2
+  - time: 55.0777
+    strength: 0.186
+    band: 1
+  - time: 55.1938
+    strength: 0.197
+    band: 2
+  - time: 55.3332
+    strength: 0.361
+    band: 0
+  - time: 55.426
+    strength: 0.203
+    band: 2
+  - time: 55.5654
+    strength: 0.306
+    band: 2
+  - time: 55.6815
+    strength: 0.319
+    band: 2
+  - time: 55.7743
+    strength: 0.447
+    band: 2
+  - time: 55.9137
+    strength: 0.271
+    band: 2
+  - time: 56.0298
+    strength: 0.425
+    band: 2
+  - time: 56.1459
+    strength: 0.196
+    band: 1
+  - time: 56.262
+    strength: 0.325
+    band: 1
+  - time: 56.378
+    strength: 0.4
+    band: 2
+  - time: 56.4941
+    strength: 0.474
+    band: 1
+  - time: 56.6102
+    strength: 0.341
+    band: 2
+  - time: 56.7263
+    strength: 0.871
+    band: 2
+  - time: 56.8424
+    strength: 0.333
+    band: 2
+  - time: 56.9585
+    strength: 0.348
+    band: 1
+  - time: 57.0746
+    strength: 0.262
+    band: 2
+  - time: 57.1907
+    strength: 0.33
+    band: 1
+  - time: 57.3068
+    strength: 0.292
+    band: 2
+  - time: 57.4229
+    strength: 0.255
+    band: 1
+  - time: 57.539
+    strength: 0.242
+    band: 2
+  - time: 57.6551
+    strength: 0.597
+    band: 1
+  - time: 57.7945
+    strength: 0.274
+    band: 2
+  - time: 57.9106
+    strength: 0.492
+    band: 1
+  - time: 58.0267
+    strength: 0.332
+    band: 2
+  - time: 58.1428
+    strength: 0.393
+    band: 0
+  - time: 58.2589
+    strength: 0.321
+    band: 2
+  - time: 58.375
+    strength: 0.391
+    band: 1
+  - time: 58.4911
+    strength: 0.343
+    band: 2
+  - time: 58.6072
+    strength: 1
+    band: 2
+  - time: 58.7233
+    strength: 0.36
+    band: 2
+  - time: 58.8394
+    strength: 0.388
+    band: 2
+  - time: 58.9555
+    strength: 0.314
+    band: 2
+  - time: 59.0716
+    strength: 0.326
+    band: 1
+  - time: 59.1877
+    strength: 0.35
+    band: 2
+  - time: 59.3038
+    strength: 0.323
+    band: 2
+  - time: 59.4199
+    strength: 0.31
+    band: 2
+  - time: 59.536
+    strength: 0.784
+    band: 2
+  - time: 59.6521
+    strength: 0.319
+    band: 2
+  - time: 59.7682
+    strength: 0.24
+    band: 1
+  - time: 59.9075
+    strength: 0.194
+    band: 0
+  - time: 60.0932
+    strength: 0.074
+    band: 1
+  - time: 60.2093
+    strength: 0.088
+    band: 1
+  laneCount: 4
+  generationSeed: 12345
+  presets:
+  - {fileID: 11400000, guid: b1ad24b06f2a78c42ae90da597b0b82f, type: 2}
+  - {fileID: 11400000, guid: 6ba09fc90e263d94d864baea9481191e, type: 2}
+  - {fileID: 11400000, guid: 6b8b4360c56179c48ad5b7298bff671d, type: 2}
+  - {fileID: 11400000, guid: 9b86ed002f2f601458597fb04eab80ee, type: 2}
+  difficultyNotes:
+  - notes:
+    - time: 0.47425988
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 0.94311976
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 1.4119797
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 1.8808396
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 2.3496995
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 2.8185594
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 3.287419
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 3.756279
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 4.693999
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 5.162859
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 5.6317186
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 6.1005783
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 7.038298
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 7.5071583
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 7.976018
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 8.444878
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 8.913738
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 9.851458
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 10.789177
+      lane: 2
+      holdLength: 1.4065796
+      type: 1
+    - time: 12.664617
+      lane: 3
+      holdLength: 1.4065796
+      type: 1
+    - time: 14.540056
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 15.477777
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 15.946636
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 16.415497
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 17.353216
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 18.290936
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 18.759796
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 19.228655
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 20.166374
+      lane: 0
+      holdLength: 0.46885988
+      type: 1
+    - time: 21.104095
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 21.572954
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 22.041815
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 22.979534
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 23.448395
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 23.917253
+      lane: 0
+      holdLength: 0.46885988
+      type: 1
+    - time: 24.854975
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 25.792694
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 26.261553
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 26.730413
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 27.668133
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 28.605852
+      lane: 2
+      holdLength: 0.46885988
+      type: 1
+    - time: 29.543573
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 30.481293
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 30.950151
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 31.419012
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 32.35673
+      lane: 3
+      holdLength: 0.46885988
+      type: 1
+    - time: 33.294453
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 33.763313
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 34.23217
+      lane: 2
+      holdLength: 0.46885988
+      type: 1
+    - time: 35.16989
+      lane: 1
+      holdLength: 0.46885988
+      type: 1
+    - time: 36.107613
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 37.04533
+      lane: 3
+      holdLength: 0.46885988
+      type: 1
+    - time: 37.98305
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 38.451912
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 38.92077
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 39.85849
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 40.79621
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 41.265068
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 41.73393
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 42.67165
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 43.609367
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 44.54709
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 45.48481
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 46.422527
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 47.36025
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 47.82911
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 48.29797
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 49.235687
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 50.17341
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 50.64227
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 51.111126
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 52.048847
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 52.98657
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 53.924286
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 54.862007
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 55.799725
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 56.268585
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 56.737446
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 57.675167
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 58.144024
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 58.612885
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 59.550606
+      lane: 3
+      holdLength: 0.46885988
+      type: 1
+  - notes:
+    - time: 0.47425988
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 0.47425988
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 0.94311976
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 1.1775497
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 1.4119797
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 1.8808396
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 1.8808396
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 2.3496995
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 2.3496995
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 2.5841293
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 2.8185594
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 2.8185594
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 3.287419
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 3.756279
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 3.990709
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 4.459569
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 4.693999
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 4.693999
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 5.162859
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 5.162859
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 5.6317186
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 5.6317186
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 6.1005783
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 6.3350086
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 6.5694385
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 6.8038683
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 7.038298
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 7.038298
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 7.2727284
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 7.5071583
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 7.976018
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 8.210448
+      lane: 1
+      holdLength: 0.46885988
+      type: 1
+    - time: 8.913738
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 9.148168
+      lane: 3
+      holdLength: 0.46885988
+      type: 1
+    - time: 9.851458
+      lane: 1
+      holdLength: 0.7032898
+      type: 1
+    - time: 10.789177
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 11.023607
+      lane: 3
+      holdLength: 0.7032898
+      type: 1
+    - time: 11.961327
+      lane: 2
+      holdLength: 0.46885988
+      type: 1
+    - time: 12.664617
+      lane: 1
+      holdLength: 0.93771976
+      type: 1
+    - time: 13.836766
+      lane: 0
+      holdLength: 0.46885988
+      type: 1
+    - time: 14.540056
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 15.008916
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 15.477777
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 15.712206
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 16.181067
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 16.415497
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 16.649925
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 17.118786
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 17.353216
+      lane: 1
+      holdLength: 0.7032898
+      type: 1
+    - time: 18.290936
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 18.525366
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 18.994225
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 19.228655
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 19.463085
+      lane: 2
+      holdLength: 0.46885988
+      type: 1
+    - time: 20.166374
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 20.635235
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 20.869665
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 21.104095
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 21.338524
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 21.572954
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 22.041815
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 22.510674
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 22.979534
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 23.213964
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 23.682825
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 23.917253
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 24.151684
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 24.620544
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 24.854975
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 25.323833
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 25.792694
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 26.027124
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 26.495983
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 26.730413
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 26.964844
+      lane: 1
+      holdLength: 0.46885988
+      type: 1
+    - time: 27.668133
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 28.136993
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 28.371424
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 28.605852
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 28.840282
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 29.309143
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 29.543573
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 29.778002
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 30.012432
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 30.481293
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 30.715723
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 31.184582
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 31.419012
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 31.653442
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 32.122303
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 32.35673
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 32.825592
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 33.294453
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 33.52888
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 33.99774
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 34.23217
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 34.466602
+      lane: 1
+      holdLength: 0.46885988
+      type: 1
+    - time: 35.16989
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 35.638752
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 35.87318
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 36.107613
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 36.34204
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 36.8109
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 37.04533
+      lane: 2
+      holdLength: 0.7032898
+      type: 1
+    - time: 37.98305
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 38.21748
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 38.92077
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 39.1552
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 39.85849
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 40.32735
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 40.79621
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 41.03064
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 41.4995
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 41.73393
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 41.96836
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 42.67165
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 43.14051
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 43.37494
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 43.609367
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 43.8438
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 44.31266
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 44.54709
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 45.01595
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 45.48481
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 45.71924
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 45.95367
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 46.422527
+      lane: 3
+      holdLength: 0.7032898
+      type: 1
+    - time: 47.36025
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 47.594677
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 47.82911
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 48.29797
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 48.5324
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 48.766827
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 49.00126
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 49.235687
+      lane: 1
+      holdLength: 0.7032898
+      type: 1
+    - time: 50.17341
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 50.407837
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 50.64227
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 50.876698
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 51.111126
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 51.34556
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 51.579987
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 52.048847
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 52.517708
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 52.98657
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 53.220997
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 53.689857
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 53.924286
+      lane: 3
+      holdLength: 0.7032898
+      type: 1
+    - time: 54.862007
+      lane: 2
+      holdLength: 0.7032898
+      type: 1
+    - time: 55.799725
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 56.034157
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 56.268585
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 56.503017
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 56.737446
+      lane: 1
+      holdLength: 0.7032898
+      type: 1
+    - time: 57.675167
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 57.909595
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 58.144024
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 58.378456
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 58.612885
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 58.847317
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 59.550606
+      lane: 1
+      holdLength: 0.7032898
+      type: 1
+  - notes:
+    - time: 0.47425988
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 0.47425988
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 0.94311976
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 1.1775497
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 1.4119797
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 1.6464096
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 1.8808396
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 1.8808396
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 2.1152694
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 2.3496995
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 2.3496995
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 2.5841293
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 2.8185594
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 2.8185594
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 3.287419
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 3.287419
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 3.756279
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 3.990709
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 4.225139
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 4.459569
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 4.693999
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 4.693999
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 4.9284286
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 5.162859
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 5.162859
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 5.6317186
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 5.6317186
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 6.1005783
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 6.3350086
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 6.5694385
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 6.8038683
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 7.038298
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 7.038298
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 7.2727284
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 7.5071583
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 7.5071583
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 7.976018
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 8.210448
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 8.679308
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 8.913738
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 9.148168
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 9.617027
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 9.851458
+      lane: 2
+      holdLength: 0.7032898
+      type: 1
+    - time: 10.789177
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 11.023607
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 11.492467
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 11.961327
+      lane: 3
+      holdLength: 0.46885988
+      type: 1
+    - time: 12.664617
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 13.133477
+      lane: 0
+      holdLength: 0.46885988
+      type: 1
+    - time: 13.836766
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 14.305627
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 14.540056
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 14.774487
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 15.008916
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 15.477777
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 15.477777
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 15.712206
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 15.946636
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 16.181067
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 16.415497
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 16.649925
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 17.118786
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 17.353216
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 17.822075
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 18.290936
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 18.525366
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 18.759796
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 18.994225
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 19.228655
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 19.228655
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 19.463085
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 19.697515
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 20.166374
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 20.635235
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 20.869665
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 21.104095
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 21.104095
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 21.338524
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 21.572954
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 21.807384
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 22.041815
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 22.276245
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 22.510674
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 22.745104
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 22.979534
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 22.979534
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 23.213964
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 23.448395
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 23.682825
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 23.917253
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 24.151684
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 24.620544
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 24.854975
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 25.323833
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 25.792694
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 26.027124
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 26.261553
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 26.495983
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 26.730413
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 26.730413
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 26.964844
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 27.199274
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 27.668133
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 28.136993
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 28.371424
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 28.605852
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 28.605852
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 28.840282
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 29.074713
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 29.309143
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 29.543573
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 29.778002
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 30.012432
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 30.481293
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 30.715723
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 30.950151
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 31.184582
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 31.419012
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 31.419012
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 31.653442
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 32.122303
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 32.35673
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 32.825592
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 33.294453
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 33.52888
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 33.763313
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 33.99774
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 34.23217
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 34.466602
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 34.70103
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 35.16989
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 35.638752
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 35.87318
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 36.107613
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 36.34204
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 36.57647
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 36.8109
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 37.04533
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 37.279762
+      lane: 2
+      holdLength: 0.46885988
+      type: 1
+    - time: 37.98305
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 37.98305
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 38.21748
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 38.451912
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 38.68634
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 38.92077
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 39.1552
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 39.62406
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 39.85849
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 40.32735
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 40.79621
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 41.03064
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 41.265068
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 41.4995
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 41.73393
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 41.96836
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 42.20279
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 42.437218
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 42.67165
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 43.14051
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 43.37494
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 43.609367
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 43.609367
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 43.8438
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 44.078228
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 44.31266
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 44.54709
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 44.78152
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 45.01595
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 45.48481
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 45.48481
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 45.71924
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 46.070885
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 46.422527
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 46.65696
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 47.008602
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 47.36025
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 47.594677
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 47.82911
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 48.29797
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 48.5324
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 49.00126
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 49.235687
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 49.47012
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 49.704548
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 50.17341
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 50.407837
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 50.64227
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 50.876698
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 51.111126
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 51.111126
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 51.34556
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 51.6972
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 52.048847
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 52.517708
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 52.98657
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 52.98657
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 53.220997
+      lane: 2
+      holdLength: 0.46885988
+      type: 1
+    - time: 53.924286
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 54.15872
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 54.51036
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 54.862007
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 55.330868
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 55.799725
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 56.034157
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 56.503017
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 56.737446
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 56.971874
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 57.206306
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 57.675167
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 57.909595
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 58.144024
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 58.378456
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 58.612885
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 58.612885
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 58.847317
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 59.19896
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 59.550606
+      lane: 2
+      holdLength: 0.7032898
+      type: 1
+  - notes:
+    - time: 0.47425988
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 0.47425988
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 0.94311976
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 0.94311976
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 1.1775497
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 1.4119797
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 1.6464096
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 1.8808396
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 1.8808396
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 2.1152694
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 2.3496995
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 2.3496995
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 2.5841293
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 2.8185594
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 2.8185594
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 3.0529892
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 3.287419
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 3.287419
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 3.756279
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 3.756279
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 3.990709
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 4.225139
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 4.459569
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 4.693999
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 4.693999
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 4.9284286
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 5.162859
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 5.162859
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 5.397289
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 5.6317186
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 5.6317186
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 6.1005783
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 6.1005783
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 6.3350086
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 6.5694385
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 6.8038683
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 7.038298
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 7.038298
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 7.2727284
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 7.5071583
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 7.5071583
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 7.741588
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 7.976018
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 7.976018
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 8.210448
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 8.444878
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 8.679308
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 8.913738
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 8.913738
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 9.148168
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 9.382598
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 9.617027
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 9.851458
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 9.851458
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 10.085888
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 10.320317
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 10.554748
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 10.789177
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 10.789177
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 11.023607
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 11.258038
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 11.492467
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 11.726897
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 11.961327
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 12.195757
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 12.430187
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 12.664617
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 12.664617
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 12.899047
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 13.133477
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 13.367907
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 13.602337
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 13.836766
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 14.071197
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 14.305627
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 14.540056
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 14.540056
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 14.774487
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 15.008916
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 15.243346
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 15.477777
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 15.477777
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 15.712206
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 15.946636
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 16.181067
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 16.415497
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 16.415497
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 16.649925
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 16.884356
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 17.118786
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 17.353216
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 17.353216
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 17.587646
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 17.822075
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 18.056505
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 18.290936
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 18.525366
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 18.759796
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 18.994225
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 19.228655
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 19.228655
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 19.463085
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 19.697515
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 19.931946
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 20.166374
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 20.166374
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 20.400805
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 20.635235
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 20.869665
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 21.104095
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 21.104095
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 21.338524
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 21.572954
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 21.807384
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 22.041815
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 22.041815
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 22.276245
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 22.510674
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 22.745104
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 22.979534
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 22.979534
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 23.213964
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 23.448395
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 23.682825
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 23.917253
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 23.917253
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 24.151684
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 24.386114
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 24.620544
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 24.854975
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 24.854975
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 25.089403
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 25.323833
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 25.558264
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 25.792694
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 26.027124
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 26.261553
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 26.495983
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 26.730413
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 26.730413
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 26.964844
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 27.199274
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 27.433702
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 27.668133
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 27.668133
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 27.902563
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 28.136993
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 28.371424
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 28.605852
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 28.605852
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 28.840282
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 29.074713
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 29.309143
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 29.543573
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 29.543573
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 29.778002
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 30.012432
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 30.246862
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 30.481293
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 30.481293
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 30.715723
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 30.950151
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 31.184582
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 31.419012
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 31.419012
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 31.653442
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 31.887873
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 32.122303
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 32.35673
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 32.35673
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 32.591164
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 32.825592
+      lane: 1
+      holdLength: 0.3516449
+      type: 1
+    - time: 33.294453
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 33.294453
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 33.52888
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 33.763313
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 33.99774
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 34.23217
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 34.23217
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 34.466602
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 34.70103
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 34.935463
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 35.16989
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 35.16989
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 35.40432
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 35.638752
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 35.87318
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 36.107613
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 36.107613
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 36.34204
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 36.57647
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 36.8109
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 37.04533
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 37.04533
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 37.279762
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 37.51419
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 37.74862
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 37.98305
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 37.98305
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 38.21748
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 38.451912
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 38.68634
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 38.92077
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 38.92077
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 39.1552
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 39.38963
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 39.62406
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 39.85849
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 39.85849
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 40.09292
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 40.32735
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 40.56178
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 40.79621
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 41.03064
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 41.265068
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 41.4995
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 41.73393
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 41.73393
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 41.96836
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 42.20279
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 42.437218
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 42.67165
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 42.67165
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 42.90608
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 43.14051
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 43.37494
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 43.609367
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 43.609367
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 43.8438
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 44.078228
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 44.31266
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 44.54709
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 44.54709
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 44.78152
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 45.01595
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 45.133163
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 45.367596
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 45.48481
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 45.48481
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 45.602024
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 45.71924
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 45.836452
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 45.95367
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 46.070885
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 46.1881
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 46.305313
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 46.422527
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 46.422527
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 46.539745
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 46.65696
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 46.774174
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 46.891388
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 47.008602
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 47.12582
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 47.243034
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 47.36025
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 47.36025
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 47.477463
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 47.594677
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 47.711895
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 47.82911
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 47.946323
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 48.063538
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 48.18075
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 48.29797
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 48.415184
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 48.5324
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 48.649612
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 48.766827
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 48.884045
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 49.00126
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 49.118473
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 49.235687
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 49.235687
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 49.3529
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 49.47012
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 49.587334
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 49.704548
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 49.821762
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 49.938976
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 50.056194
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 50.17341
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 50.17341
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 50.290623
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 50.407837
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 50.52505
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 50.64227
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 50.759483
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 50.876698
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 50.99391
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 51.111126
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 51.111126
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 51.228344
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 51.34556
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 51.462772
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 51.579987
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 51.6972
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 51.81442
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 51.931633
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 52.048847
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 52.048847
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 52.16606
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 52.283276
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 52.400494
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 52.517708
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 52.634922
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 52.86935
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 52.98657
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 52.98657
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 53.103783
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 53.220997
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 53.33821
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 53.455425
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 53.572643
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 53.689857
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 53.80707
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 53.924286
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 53.924286
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 54.0415
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 54.15872
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 54.275932
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 54.51036
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 54.627575
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 54.744793
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 54.862007
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 54.862007
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 54.97922
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 55.21365
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 55.330868
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 55.448082
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 55.565296
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 55.68251
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 55.799725
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 55.916943
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 56.034157
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 56.15137
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 56.268585
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 56.3858
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 56.503017
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 56.62023
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 56.737446
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 56.737446
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 56.85466
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 56.971874
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 57.089092
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 57.206306
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 57.32352
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 57.440735
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 57.55795
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 57.675167
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 57.675167
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 57.79238
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 57.909595
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 58.02681
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 58.144024
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 58.261242
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 58.378456
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 58.49567
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 58.612885
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 58.612885
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 58.7301
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 58.847317
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 58.96453
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 59.081745
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 59.19896
+      lane: 0
+      holdLength: 0
+      type: 0
+    - time: 59.316174
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 59.43339
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 59.550606
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 59.550606
+      lane: 3
+      holdLength: 0
+      type: 0
+    - time: 59.66782
+      lane: 2
+      holdLength: 0
+      type: 0
+    - time: 59.785034
+      lane: 1
+      holdLength: 0
+      type: 0
+    - time: 59.90225
+      lane: 0
+      holdLength: 0.46885988
+      type: 1

@@ -272,6 +272,17 @@ namespace SuminTools.RhythmChart.Editor
                 view.followPlayhead = GUILayout.Toggle(view.followPlayhead, "따라가기", EditorStyles.toolbarButton, GUILayout.Width(62f));
                 GUILayout.FlexibleSpace();
 
+                using (new EditorGUI.DisabledScope(!ChartPlaytest.CanStart))
+                {
+                    var content = new GUIContent("▶ 플레이 테스트", "현재 재생 위치부터 Game 뷰에서 직접 쳐 본다(저장 후 플레이 모드로 들어갑니다)");
+                    if (GUILayout.Button(content, EditorStyles.toolbarButton, GUILayout.Width(104f)))
+                    {
+                        StopPlayback();
+                        double start = playhead >= chart.Duration - 1.0 ? 0.0 : playhead;
+                        ChartPlaytest.Start(chart, difficulty, start);
+                    }
+                }
+
                 using (new EditorGUI.DisabledScope(!CanPlay))
                 {
                     string tooltip = CanPlay ? "스페이스바" : AudioPreviewPlayer.IsAvailable ? "차트에 오디오가 없습니다" : "이 Unity 버전에서는 미리듣기를 쓸 수 없습니다";

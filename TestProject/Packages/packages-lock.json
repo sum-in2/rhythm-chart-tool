@@ -21,7 +21,9 @@
       "version": "file:../../Packages-src/com.sumin.rhythm-chart-tool",
       "depth": 0,
       "source": "local",
-      "dependencies": {}
+      "dependencies": {
+        "com.unity.inputsystem": "1.7.0"
+      }
     },
     "com.unity.ai.navigation": {
       "version": "2.0.14",

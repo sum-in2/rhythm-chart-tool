@@ -2,7 +2,8 @@
     "name": "RhythmChart.Editor",
     "rootNamespace": "SuminTools.RhythmChart.Editor",
     "references": [
-        "RhythmChart.Runtime"
+        "RhythmChart.Runtime",
+        "RhythmChart.Runtime.InputSystem"
     ],
     "includePlatforms": [
         "Editor"
