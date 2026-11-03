@@ -1,4 +1,7 @@
 {
+  "testables": [
+    "com.sumin.rhythm-chart-tool"
+  ],
   "dependencies": {
     "com.sumin.rhythm-chart-tool": "file:../../Packages-src/com.sumin.rhythm-chart-tool",
     "com.coplaydev.unity-mcp": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",

@@ -190,7 +190,9 @@ namespace SuminTools.RhythmChart.Editor
                 Debug.Log(
                     $"{EditorConstants.LogPrefix}분석 완료: {chartPath}\n" +
                     $"BPM {chart.Bpm:0.##}, offset {chart.Offset:0.###}s, 길이 {chart.Duration:0.#}s, " +
-                    $"beats {chart.Beats.Count}, onsets {chart.Onsets.Count}",
+                    $"beats {chart.Beats.Count}, onsets {chart.Onsets.Count}\n" +
+                    $"노트: Easy {chart.GetNotes(Difficulty.Easy).Count} / Normal {chart.GetNotes(Difficulty.Normal).Count} / " +
+                    $"Hard {chart.GetNotes(Difficulty.Hard).Count} / Expert {chart.GetNotes(Difficulty.Expert).Count}",
                     chart);
                 EditorGUIUtility.PingObject(chart);
             }

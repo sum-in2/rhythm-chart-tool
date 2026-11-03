@@ -45,6 +45,11 @@ namespace SuminTools.RhythmChart.Editor
             chart.ApplyAnalysis(
                 clip, result.schemaVersion, result.bpm, result.offset, result.duration, result.beats, onsets);
 
+            // 재분석은 분석 데이터만 갱신한다. 노트가 하나도 없을 때(새 차트 등)만 자동으로 만든다.
+            DefaultPresets.AssignMissing(chart);
+            if (!chart.HasAnyNotes)
+                chart.GenerateAll();
+
             if (isNew)
                 AssetDatabase.CreateAsset(chart, chartAssetPath);
             else
