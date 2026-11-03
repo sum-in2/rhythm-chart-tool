@@ -3,6 +3,7 @@
     "rootNamespace": "SuminTools.RhythmChart.Tests",
     "references": [
         "RhythmChart.Runtime",
+        "RhythmChart.Editor",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],

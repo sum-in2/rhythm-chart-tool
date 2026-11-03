@@ -19,6 +19,9 @@ namespace SuminTools.RhythmChart.Editor
         {
             var chart = (ChartData)target;
 
+            if (GUILayout.Button("차트 에디터 열기", GUILayout.Height(24f)))
+                ChartEditorWindow.Open(chart);
+            EditorGUILayout.Space();
             DrawSummary(chart);
             EditorGUILayout.Space();
             DrawGenerationSettings(chart);
