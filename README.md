@@ -4,17 +4,17 @@ mp3 를 Python(librosa)으로 분석해 BPM·박자·타격 시점을 뽑고, **
 
 ![차트 에디터](Packages-src/com.sumin.rhythm-chart-tool/Documentation~/Images/chart-editor.png)
 
-> **상태: 0.1.0 (초기 버전).** Unity 6000.3 + Windows + Python 3.13 에서만 검증했습니다. Unity 2022.3 호환, macOS/Linux, 사람이 직접 쳐 본 체감 검증은 아직 없습니다. 자세한 내용은 [알려진 한계](Packages-src/com.sumin.rhythm-chart-tool/README.md#알려진-한계).
+> **상태: 0.1.1 (초기 버전).** Unity 6000.3 + Windows + Python 3.13 에서만 검증했습니다. Unity 2022.3 호환, macOS/Linux, 사람이 직접 쳐 본 체감 검증은 아직 없습니다. 자세한 내용은 [알려진 한계](Packages-src/com.sumin.rhythm-chart-tool/README.md#알려진-한계).
 
 ## 설치
 
 Unity **Package Manager → `+` → Add package from git URL...**
 
 ```
-https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.0
+https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.1
 ```
 
-- `#v0.1.0` 은 Git 태그입니다(태그가 없으면 `#main`).
+- `#v0.1.1` 은 Git 태그입니다(최신 개발본은 `#main`).
 - 이 저장소는 **비공개**입니다. Unity 가 호출하는 시스템 `git` 에 인증(자격 증명 관리자 또는 SSH)이 되어 있어야 합니다.
 - Input System 패키지(`com.unity.inputsystem`)가 의존성으로 함께 설치됩니다.
 
@@ -54,3 +54,5 @@ https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rh
 ## 라이선스
 
 [MIT](Packages-src/com.sumin.rhythm-chart-tool/LICENSE) © 2026 sum-in2
+
+`TestProject/` 안의 일부 파일(URP 설정, Readme/TutorialInfo 등)은 Unity 프로젝트 템플릿에서 온 것으로 이 저장소의 MIT 대상이 아닙니다. 패키지(`Packages-src/`)와 `tools/`, 문서가 이 저장소의 원본 작업물입니다.

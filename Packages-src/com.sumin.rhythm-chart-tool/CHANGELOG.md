@@ -3,6 +3,21 @@
 이 파일은 [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/) 형식을 따르고, 버전은 [유의적 버전](https://semver.org/lang/ko/)을 따릅니다.
 1.0.0 전에는 호환되지 않는 변경이 있을 수 있습니다.
 
+## [0.1.1] - 2026-11-03
+
+### Fixed
+
+- 내장 모듈 의존성(`com.unity.modules.audio`, `imgui`, `jsonserialize`)을 `package.json` 에 선언하지 않아, 모듈이 적은 새 프로젝트에 설치하면 `AudioClip` 을 찾지 못해 컴파일이 실패하던 문제.
+
+### Added
+
+- README 에 저작권 안내(분석하는 오디오와 만든 차트의 권리·이용 책임은 사용자에게 있음).
+- 저장소 루트의 `LICENSE`(MIT)와, `TestProject` 의 Unity 템플릿 파일이 MIT 대상이 아니라는 안내.
+
+### Changed
+
+- 난이도 기본값 주석에서 특정 곡 제목을 일반화했습니다(동작 변화 없음).
+
 ## [0.1.0] - 2026-11-03
 
 첫 번째 버전.

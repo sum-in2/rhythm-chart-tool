@@ -13,7 +13,7 @@ mp3 같은 오디오를 Python(librosa)으로 분석해 BPM·박자·타격 시�
 | 재생 | `AudioSettings.dspTime` 기준 `ChartPlayer`, Perfect/Good/Miss 판정, 에디터의 "플레이 테스트", 샘플 씬. |
 | 차트 JSON | `schemaVersion` 과 마이그레이션 훅이 있는 입출력. 런타임에서도 읽을 수 있습니다. |
 
-> **상태: 0.1.0 (초기 버전).** 아래 [알려진 한계](#알려진-한계)를 꼭 읽어 보세요. 특히 Unity 2022.3 호환과 macOS/Linux 는 아직 확인하지 못했습니다.
+> **상태: 0.1.1 (초기 버전).** 아래 [알려진 한계](#알려진-한계)를 꼭 읽어 보세요. 특히 Unity 2022.3 호환과 macOS/Linux 는 아직 확인하지 못했습니다.
 
 ---
 
@@ -29,17 +29,17 @@ mp3 같은 오디오를 Python(librosa)으로 분석해 BPM·박자·타격 시�
 **Package Manager** → `+` → `Add package from git URL...` 에 아래를 넣습니다.
 
 ```
-https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.0
+https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.1
 ```
 
 또는 프로젝트의 `Packages/manifest.json` 의 `dependencies` 에 직접 추가합니다.
 
 ```json
-"com.sumin.rhythm-chart-tool": "https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.0"
+"com.sumin.rhythm-chart-tool": "https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.1"
 ```
 
-- `#v0.1.0` 은 Git 태그입니다. 태그를 만들기 전에는 `#main` 을 쓰세요.
-- 저장소가 **비공개**이면 Unity 가 호출하는 시스템 `git` 에 인증이 되어 있어야 합니다(자격 증명 관리자 또는 SSH). SSH 주소는 `ssh://git@github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.0` 형태입니다. 이 설치 경로는 아직 실제로 시험하지 못했습니다.
+- `#v0.1.1` 은 Git 태그입니다. 가장 최신 개발본을 쓰려면 `#main` 을 쓰세요.
+- 저장소가 **비공개**이면 Unity 가 호출하는 시스템 `git` 에 인증이 되어 있어야 합니다(자격 증명 관리자 또는 SSH). SSH 주소는 `ssh://git@github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rhythm-chart-tool#v0.1.1` 형태입니다. 이 설치 경로는 아직 실제로 시험하지 못했습니다.
 - 개발용으로 로컬 폴더를 직접 참조하려면 `"com.sumin.rhythm-chart-tool": "file:/절대/경로/Packages-src/com.sumin.rhythm-chart-tool"` 처럼 씁니다(이 저장소의 `TestProject` 가 이 방식을 씁니다).
 
 ## 빠른 시작
