@@ -518,8 +518,7 @@ namespace SuminTools.RhythmChart.Editor
                 if (note.type == NoteType.Hold)
                 {
                     Fill(rect, new Color(color.r, color.g, color.b, 0.55f));
-                    Rect head = layout.NoteRect(note.time, note.lane, 0f);
-                    Fill(head, color);
+                    Fill(layout.HoldHeadRect(note.time, note.lane), color);
                 }
                 else
                 {

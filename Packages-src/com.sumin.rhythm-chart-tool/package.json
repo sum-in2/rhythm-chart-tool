@@ -9,15 +9,20 @@
   },
   "keywords": [
     "rhythm",
+    "rhythm-game",
     "chart",
     "beatmap",
     "audio",
     "editor"
   ],
   "author": {
-    "name": "SuminTools"
+    "name": "sum-in2",
+    "url": "https://github.com/sum-in2"
   },
   "license": "MIT",
+  "documentationUrl": "https://github.com/sum-in2/rhythm-chart-tool/blob/main/Packages-src/com.sumin.rhythm-chart-tool/README.md",
+  "changelogUrl": "https://github.com/sum-in2/rhythm-chart-tool/blob/main/Packages-src/com.sumin.rhythm-chart-tool/CHANGELOG.md",
+  "licensesUrl": "https://github.com/sum-in2/rhythm-chart-tool/blob/main/Packages-src/com.sumin.rhythm-chart-tool/LICENSE",
   "samples": [
     {
       "displayName": "Basic Playback",

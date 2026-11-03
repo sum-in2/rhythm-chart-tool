@@ -99,6 +99,25 @@ namespace SuminTools.RhythmChart.Tests
             Assert.AreEqual(layout.LaneBand(1).center.x, hold.center.x, Tolerance);
         }
 
+        [Test]
+        public void HoldHead_StartsAtTheHoldsStart_InBothOrientations()
+        {
+            TimelineLayout horizontal = Layout(TimelineOrientation.Horizontal, 100f, 0f);
+            Rect hold = horizontal.NoteRect(2.0, 1, 0.5f);
+            Rect head = horizontal.HoldHeadRect(2.0, 1);
+            Assert.AreEqual(hold.xMin, head.xMin, Tolerance, "머리가 몸통보다 앞서 나가지 않는다");
+            Assert.AreEqual(TimelineLayout.TapSize, head.width, Tolerance);
+            Assert.AreEqual(hold.yMin, head.yMin, Tolerance);
+            Assert.AreEqual(hold.yMax, head.yMax, Tolerance);
+
+            TimelineLayout vertical = Layout(TimelineOrientation.Vertical, 100f, 0f);
+            hold = vertical.NoteRect(2.0, 1, 0.5f);
+            head = vertical.HoldHeadRect(2.0, 1);
+            Assert.AreEqual(hold.yMin, head.yMin, Tolerance);
+            Assert.AreEqual(TimelineLayout.TapSize, head.height, Tolerance);
+            Assert.AreEqual(hold.xMin, head.xMin, Tolerance);
+        }
+
         [TestCase(0)]
         [TestCase(1)]
         public void LaneBands_AreAdjacentAndOrdered(int orientationValue)

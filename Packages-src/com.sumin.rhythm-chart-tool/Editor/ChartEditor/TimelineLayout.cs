@@ -112,6 +112,15 @@ namespace SuminTools.RhythmChart.Editor
             return Band(start, start + length, laneStart + Inset, laneStart + LaneThickness - Inset);
         }
 
+        /// <summary>롱노트 머리(시작 부분)의 화면 사각형. 탭과 달리 시각이 머리의 가운데가 아니라 시작이다.</summary>
+        public Rect HoldHeadRect(double time, int lane)
+        {
+            const float Inset = 4f;
+            float start = TimeToMain(time);
+            float laneStart = LanesStart + LaneThickness * lane;
+            return Band(start, start + TapSize, laneStart + Inset, laneStart + LaneThickness - Inset);
+        }
+
         public float MainOf(Vector2 position)
         {
             return IsHorizontal ? position.x - Area.x : position.y - Area.y;
