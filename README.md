@@ -47,6 +47,10 @@ https://github.com/sum-in2/rhythm-chart-tool.git?path=/Packages-src/com.sumin.rh
 - Python 스크립트를 직접 시험하려면 저장소 루트에 venv 를 만들고 `Packages-src/com.sumin.rhythm-chart-tool/Python~/requirements.txt` 를 설치한 뒤 `python Packages-src/com.sumin.rhythm-chart-tool/Python~/analyze.py <오디오> <출력.json>` 을 실행합니다. `TestAudio/` 에 넣은 오디오는 커밋되지 않습니다.
 - 커밋 메시지는 Conventional Commits 를 따릅니다.
 
+## 저작권 안내
+
+> 분석하는 오디오와 그로 만든 차트의 권리와 이용에 대한 책임은 사용자에게 있습니다. 이용 권한이 있는 음원에만 사용하세요.
+
 ## 라이선스
 
 [MIT](Packages-src/com.sumin.rhythm-chart-tool/LICENSE) © 2026 sum-in2

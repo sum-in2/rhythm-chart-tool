@@ -61,7 +61,7 @@ namespace SuminTools.RhythmChart
         [Tooltip("패턴 최대 노트 수.")]
         [Range(3, 12)] public int patternMaxLength = 6;
 
-        /// <summary>난이도별 기본값. 24 Sorrows(150BPM) 한 곡에서 노트 밀도를 보고 정한 값이다.</summary>
+        /// <summary>난이도별 기본값. 150BPM 실제 곡 한 곡에서 노트 밀도를 보고 정한 값이다.</summary>
         public static DifficultySettings CreateDefault(Difficulty difficulty)
         {
             switch (difficulty)

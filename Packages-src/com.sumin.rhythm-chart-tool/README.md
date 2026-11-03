@@ -240,6 +240,10 @@ public class MyGame : MonoBehaviour
 
 이 저장소는 모노레포입니다(`Packages-src/com.sumin.rhythm-chart-tool` 이 패키지, `TestProject` 가 개발용 Unity 프로젝트). `TestProject` 에서 `Window > General > Test Runner > EditMode` 의 `RhythmChart.Tests.Editor` 를 실행하면 생성 규칙, 편집 모델, 레이아웃, 파형, 판정, JSON 테스트가 돕니다(현재 110개).
 
+## 저작권 안내
+
+> 분석하는 오디오와 그로 만든 차트의 권리와 이용에 대한 책임은 사용자에게 있습니다. 이용 권한이 있는 음원에만 사용하세요.
+
 ## 라이선스
 
 [MIT](LICENSE). 샘플의 데모곡도 이 저장소에서 직접 합성한 것으로 같은 라이선스입니다.
