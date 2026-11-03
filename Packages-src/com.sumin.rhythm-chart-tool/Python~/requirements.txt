@@ -1,0 +1,7 @@
+# analyze.py 기본 분석에 필요한 패키지. Python 3.13 + Windows 에서 검증한 버전이다.
+# 하위 의존성(llvmlite, scikit-learn 등)은 pip 이 위 버전에 맞춰 해결한다.
+librosa==1.0.0
+numpy==2.5.4
+scipy==1.18.1
+numba==0.68.1
+soundfile==0.14.0

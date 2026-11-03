@@ -1,0 +1,4 @@
+# analyze.py --separate (demucs 드럼 분리) 전용. torch 때문에 용량이 매우 크다(수 GB 가능).
+# 주의: pip 의존성 해결(dry-run)만 확인했고, 실제 분리 실행은 아직 검증하지 않았다.
+-r requirements.txt
+demucs==4.1.0
