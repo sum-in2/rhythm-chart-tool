@@ -28,8 +28,20 @@ LOW_MAX_HZ = 200.0
 MID_MAX_HZ = 2000.0
 BANDS = ("low", "mid", "high")
 
+# onset 검출 민감도. 난이도별 선별은 strength 로 하므로 후보는 넉넉히 뽑는다.
+# 실제 곡 1개로 측정: 기본값 0.07 은 4분음표보다 성기게(1.4개/초) 뽑았고, 0.03 까지 추가된 onset 은
+# BPM 그리드에 우연보다 훨씬 잘 맞았으나(8분 그리드 69% vs 우연 30%) 0.02 부터는 우연 수준에 가까워졌다.
+ONSET_DELTA = 0.03
+STRENGTH_NORMALIZE_PERCENTILE = 95.0  # onset strength 를 이 백분위수 = 1.0 으로 정규화(상위는 1.0 으로 자름)
+
 # onset envelope 피크가 실제 타격보다 늦는 프레임 수(합성 드럼 음원으로 측정: 약 +22ms ≈ 1프레임)
 ONSET_LATENCY_FRAMES = 1
+
+# 고정 BPM 그리드 정밀화: 세밀한 envelope 위에서 시드 BPM 주변을 훑어 그리드 점수가 최대인 (bpm, 위상)을 찾는다.
+GRID_HOP_LENGTH = 128        # 그리드 탐색용 envelope 프레임 간격(샘플), 약 5.8ms
+GRID_SEARCH_RATIO = 0.03     # 시드 BPM 의 ±3% 범위를 탐색
+GRID_BPM_STEP = 0.01
+GRID_LATENCY_SEC = 0.012      # 세밀한 envelope 피크가 실제 타격보다 늦는 시간(초)
 
 # 보정된 onset 프레임 주변에서 대역 활성도를 볼 범위(프레임).
 # STFT 창(2048샘플)이 길어서 타격이 창에 걸리기 시작하는 프레임은 타격 시각보다 앞선다.
@@ -102,33 +114,53 @@ def latency_seconds() -> float:
 
 
 def fit_beat_grid(beat_times, np):
-    """박자 시점에 직선을 맞춰 (bpm, offset) 을 구한다. 박자가 2개 미만이면 None.
+    """박자 시점에 직선을 맞춰 시드 BPM 을 구한다. 박자가 2개 미만이면 None.
 
-    librosa 의 tempo 값은 자기상관 구간 단위로 양자화돼(예: 120 → 117.45) 고정 그리드로 쓰면
-    곡 후반에 크게 어긋난다. 박자 시점의 기울기를 쓰면 이 오차가 사라진다.
-    offset 은 그리드의 첫 선 위치로, 0 이상 한 박 길이 미만이다.
+    beat_track 의 박자는 envelope 프레임(약 23ms)에 양자화되고 위상이 흔들려서,
+    이 값을 그대로 고정 그리드로 쓰면 곡 후반에 크게 어긋난다. 시드로만 쓰고 refine_grid 로 다듬는다.
     """
     if len(beat_times) < 2:
         return None
-    index = np.arange(len(beat_times))
-    period, intercept = np.polyfit(index, beat_times, 1)
-    if period <= 0:
-        return None
-    return 60.0 / period, float(intercept % period)
+    period = np.polyfit(np.arange(len(beat_times)), beat_times, 1)[0]
+    return 60.0 / period if period > 0 else None
+
+
+def refine_grid(y, sr, seed_bpm, librosa, np):
+    """시드 BPM 주변에서 onset envelope 에 가장 잘 맞는 고정 그리드의 (bpm, offset) 을 찾는다.
+
+    offset 은 0 이상 한 박 길이 미만이다.
+    """
+    env = librosa.onset.onset_strength(y=y, sr=sr, hop_length=GRID_HOP_LENGTH)
+    fps = sr / GRID_HOP_LENGTH
+    best_score, best_bpm, best_phase = -1.0, seed_bpm, 0.0
+    for bpm in np.arange(seed_bpm * (1 - GRID_SEARCH_RATIO), seed_bpm * (1 + GRID_SEARCH_RATIO), GRID_BPM_STEP):
+        period = 60.0 / bpm * fps  # 프레임 단위(실수)
+        phases = np.arange(int(period))
+        beat_count = int(len(env) / period)
+        if beat_count < 2:
+            continue
+        idx = np.round(phases[:, None] + np.arange(beat_count)[None, :] * period).astype(int)
+        scores = env[np.minimum(idx, len(env) - 1)].mean(axis=1)
+        best_idx = int(np.argmax(scores))
+        if scores[best_idx] > best_score:
+            best_score, best_bpm, best_phase = float(scores[best_idx]), float(bpm), float(phases[best_idx])
+    period_sec = 60.0 / best_bpm
+    return best_bpm, (best_phase / fps - GRID_LATENCY_SEC) % period_sec
 
 
 def detect_beats(y, sr, librosa, np):
-    """(bpm, offset, beat_times) 반환. 박자를 못 찾으면 beat_times 는 빈 배열, offset 은 0."""
+    """(bpm, offset, beat_times) 반환. 박자를 못 찾으면 beat_times 는 빈 배열, offset 은 0.
+
+    bpm/offset 은 고정 그리드(refine_grid)이고, beat_times 는 beat_track 이 찾은 실제 박자 시점이다.
+    """
     env = librosa.onset.onset_strength(y=y, sr=sr, hop_length=HOP_LENGTH)
     tempo, beat_frames = librosa.beat.beat_track(onset_envelope=env, sr=sr, hop_length=HOP_LENGTH)
     beat_times = np.maximum(
         librosa.frames_to_time(beat_frames, sr=sr, hop_length=HOP_LENGTH) - latency_seconds(), 0.0)
-    fitted = fit_beat_grid(beat_times, np)
-    if fitted is not None:
-        bpm, offset = fitted
-    else:
-        bpm = float(np.atleast_1d(tempo)[0])
-        offset = float(beat_times[0]) if len(beat_times) else 0.0
+    seed_bpm = fit_beat_grid(beat_times, np) or float(np.atleast_1d(tempo)[0])
+    if seed_bpm <= 0:
+        return 0.0, 0.0, beat_times
+    bpm, offset = refine_grid(y, sr, seed_bpm, librosa, np)
     return bpm, offset, beat_times
 
 
@@ -138,9 +170,12 @@ def detect_onsets(y, sr, librosa, np):
     envelope 의 피크는 실제 타격보다 ONSET_LATENCY_FRAMES 만큼 늦으므로 프레임/시각 모두 그만큼 당긴다.
     """
     env = librosa.onset.onset_strength(y=y, sr=sr, hop_length=HOP_LENGTH)
-    peaks = librosa.onset.onset_detect(onset_envelope=env, sr=sr, hop_length=HOP_LENGTH, backtrack=False)
-    peak_value = float(env.max()) if env.size else 0.0
-    strengths = env[peaks] / peak_value if peak_value > EPSILON else np.zeros(len(peaks))
+    peaks = librosa.onset.onset_detect(
+        onset_envelope=env, sr=sr, hop_length=HOP_LENGTH, delta=ONSET_DELTA, backtrack=False)
+    peak_values = env[peaks]
+    # 최댓값으로 나누면 곡 시작의 과도음 하나가 나머지 강도를 전부 눌러버린다. 상위 백분위수로 정규화한다.
+    scale = float(np.percentile(peak_values, STRENGTH_NORMALIZE_PERCENTILE)) if peaks.size else 0.0
+    strengths = peak_values / scale if scale > EPSILON else np.zeros(len(peaks))
     frames = np.maximum(peaks - ONSET_LATENCY_FRAMES, 0)
     times = librosa.frames_to_time(frames, sr=sr, hop_length=HOP_LENGTH)
     return frames, times, np.clip(strengths, 0.0, 1.0)
