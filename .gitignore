@@ -1,0 +1,60 @@
+# Unity (TestProject)
+/TestProject/[Ll]ibrary/
+/TestProject/[Tt]emp/
+/TestProject/[Oo]bj/
+/TestProject/[Bb]uild/
+/TestProject/[Bb]uilds/
+/TestProject/[Ll]ogs/
+/TestProject/[Uu]ser[Ss]ettings/
+/TestProject/MemoryCaptures/
+/TestProject/.vscode/
+/TestProject/.vs/
+/TestProject/.idea/
+/TestProject/*.csproj
+/TestProject/*.sln
+/TestProject/*.slnx
+/TestProject/*.suo
+/TestProject/*.user
+/TestProject/*.pidb
+/TestProject/*.booproj
+/TestProject/*.svd
+/TestProject/*.pdb
+/TestProject/*.mdb
+/TestProject/*.opendb
+/TestProject/*.VC.db
+/TestProject/*.unitypackage
+/TestProject/*.apk
+/TestProject/*.aab
+/TestProject/crashlytics-build.session.json
+/TestProject/sysinfo.txt
+
+# 루트에 놓인 에디터 솔루션 파일
+/*.slnx
+/*.sln
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 오디오 (샘플 예외는 아래에서 허용)
+*.mp3
+*.wav
+*.ogg
+*.flac
+!/Packages-src/**/Samples~/**/*.mp3
+!/Packages-src/**/Samples~/**/*.wav
+!/Packages-src/**/Samples~/**/*.ogg
+
+# 분석 테스트용 폴더: 내용은 전부 무시, 폴더 설명만 추적
+/TestAudio/*
+!/TestAudio/.gitkeep
+!/TestAudio/README.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 다른 MCP 패키지가 남기는 로컬 도구 설정
+/TestProject/ProjectSettings/McpUnitySettings.json
